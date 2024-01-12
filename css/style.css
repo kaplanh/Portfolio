@@ -78,6 +78,7 @@ section {
   /* border: 2px solid red; */
   min-height: 100vh;
   padding: 0 10rem;
+  
 }
 /*! HOME */
 
@@ -86,12 +87,13 @@ section {
   justify-content: center;
   align-items: center;
   gap: 5rem;
-}
+  }
 
 .home-content {
   /* border: 2px solid yellow; */
   width: 70%;
   text-align: justify;
+  margin-top: 90px;
 }
 .home-img {
   /* border: 2px solid purple; */
