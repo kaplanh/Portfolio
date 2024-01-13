@@ -107,10 +107,11 @@ span {
 .projects-box img {
     width: 100%;
     height: 87%;
-    transition: all 1s;
+    transition: all 0.2s;
 }
 .projects-box img:hover {
-    transform: scale(1.32);
+    /* transform: scale(1.32); */
+    opacity: 0.5;
 }
 
 .pro {
