@@ -21,6 +21,9 @@ body {
 body a {
     color: var(--text-color);
 }
+
+
+
 /*! HEADER */
 
 .header {
@@ -122,4 +125,35 @@ span {
     font-weight: 550;
     /* color:var(--main-color) */
     
+}
+
+@media (max-width: 992px)
+{
+  html{
+    font-size: 10px;
+  }
+
+  .header{
+    flex-direction: column;
+    gap: 1rem;
+    
+  }
+  .container{
+    margin-top: 3rem;
+  }
+    
+
+    
+
+    section{
+      padding: 0 3rem;
+    }
+
+    footer{
+      flex-direction: column;
+    }
+
+   
+   
+
 }
