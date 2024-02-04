@@ -63,7 +63,7 @@ body a {
 }
 
 .navbar a:hover,
-.navbar a.active {
+.navbar a.active, .projects-box .pro a:hover {
   color: var(--main-color);
 }
 /*! SECTION */
