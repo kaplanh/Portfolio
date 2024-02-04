@@ -24,6 +24,7 @@ font-family: 'Victor Mono', monospace; */
 body {
   background: var(--bg-color);
   color: var(--text-color);
+  
 }
 body a {
   color: var(--text-color);
