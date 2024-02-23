@@ -22,8 +22,6 @@ body a {
     color: var(--text-color);
 }
 
-
-
 /*! HEADER */
 
 .header {
@@ -42,35 +40,35 @@ body a {
     background: var(--bg-color);
 }
 .logo {
-  /* border: 2px solid yellow; */
-  font-size: 2rem;
-  color: var(--main-color);
-  font-weight: 600;
-  font-family: "Orbitron", sans-serif;
+    /* border: 2px solid yellow; */
+    font-size: 2rem;
+    color: var(--main-color);
+    font-weight: 600;
+    font-family: "Orbitron", sans-serif;
 }
 
 .navbar {
-  /* border: 2px solid yellow; */
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  gap: 2rem;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .navbar a {
-  font-size: 1.2rem;
-  color: var(--text-color);
+    font-size: 1.2rem;
+    color: var(--text-color);
 }
 
 .navbar a:hover,
-.navbar a.active, .projects-box .pro a:hover {
-  color: var(--main-color);
+.navbar a.active,
+.projects-box .pro a:hover {
+    color: var(--main-color);
 }
 /*! SECTION */
 section {
     /* border: 2px solid red; */
     min-height: 100vh;
-    
 }
 .heading {
     text-align: center;
@@ -124,36 +122,26 @@ span {
     font-family: "Orbitron", sans-serif;
     font-weight: 550;
     /* color:var(--main-color) */
-    
 }
 
-@media (max-width: 992px)
-{
-  html{
-    font-size: 10px;
-  }
-
-  .header{
-    flex-direction: column;
-    gap: 1rem;
-    
-  }
-  .container{
-    margin-top: 3rem;
-  }
-    
-
-    
-
-    section{
-      padding: 0 3rem;
+@media (max-width: 992px) {
+    html {
+        font-size: 10px;
     }
 
-    footer{
-      flex-direction: column;
+    .header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .container {
+        margin-top: 6rem;
     }
 
-   
-   
+    section {
+        padding: 0 3rem;
+    }
 
+    footer {
+        flex-direction: column;
+    }
 }
