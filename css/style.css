@@ -252,6 +252,10 @@ span {
     font-size: 5rem;
     color: var(--main-color);
 }
+.skills-box img {
+    font-size: 6rem;
+    color: var(--main-color);
+}
 
 .skills-box h3 {
     font-size: 2rem;
