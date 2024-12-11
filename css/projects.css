@@ -106,13 +106,14 @@ span {
     row-gap: 2rem;
 }
 .projects-box img {
-    width: 100%;
+    width: 50px;
     height: 87%;
     transition: all 0.2s;
 }
 .projects-box img:hover {
     /* transform: scale(1.32); */
     opacity: 0.5;
+    color: #fff;
 }
 
 .pro {
