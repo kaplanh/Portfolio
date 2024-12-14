@@ -292,7 +292,7 @@ span {
 }
 .projects-box img {
     width: 100%;
-    /* height: 65%; */
+    height: 65%;
     transition: all 1s;
 }
 
